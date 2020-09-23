@@ -7,7 +7,7 @@ public enum Location: Hashable {
 
 internal extension Location {
 
-	var uri: String {
+	var rawValue: String {
 		switch self {
 			case .path(let path): return path
 			case .inMemory: return ":memory:"

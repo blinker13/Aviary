@@ -1,7 +1,7 @@
 
 public struct Configuration: Hashable {
-	public var access: Access
-	public var location: Location
+	public let access: Access
+	public let location: Location
 }
 
 public extension Configuration {
