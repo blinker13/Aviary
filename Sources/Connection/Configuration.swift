@@ -1,5 +1,5 @@
 
-public struct Configuration {
+public struct Configuration: Hashable {
 	public var access: Access
 	public var location: Location
 }

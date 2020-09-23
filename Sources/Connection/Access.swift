@@ -1,7 +1,7 @@
 
 import SQLite3
 
-public struct Access: OptionSet {
+public struct Access: Hashable, OptionSet {
 	public var rawValue: Int32
 
 	public init(rawValue: Int32) {

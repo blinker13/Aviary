@@ -5,17 +5,6 @@ public enum Location: Hashable {
 	case inMemory
 }
 
-public extension Location {
-
-	static func == (left: Location, right: Location) -> Bool {
-		return left.hashValue == right.hashValue
-	}
-
-	func hash(into hasher: inout Hasher) {
-		hasher.combine(uri)
-	}
-}
-
 internal extension Location {
 
 	var uri: String {
