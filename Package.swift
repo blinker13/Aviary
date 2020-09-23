@@ -5,10 +5,10 @@ _ = Package(
 	name: "Aviary",
 
 	products: [
-		.library(name: "Aviary", targets: ["Connecting"])
+		.library(name: "Aviary", targets: ["Connection"])
 	],
 
 	targets: [
-		.target(name: "Connecting"),
+		.target(name: "Connection"),
 	]
 )
